@@ -22,10 +22,7 @@
     <h1 class="mt-5">Members Page</h1>
     <a href="insert.php" class="btn btn-success">Go to Insert</a>
     <hr>
-    <div class=" form-group mb-3 col-lg-8 mt-4 ">
-        <input type="search" class="form-control form-control-md " placeholder="Search Here" v-model="filtering">
-        
-    </div>
+    
     
     <table id="mytable" class="table table-bordered table-striped">
         <thead>
