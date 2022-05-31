@@ -25,8 +25,6 @@ let app = new Vue({
             {
             
             const fname = row.Firstname.toLowerCase();
-            
-
             const searchTerm = this.filtering.toLowerCase();
 
         return (
