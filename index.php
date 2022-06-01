@@ -1,11 +1,3 @@
-<?php 
-
-    session_start();
-
-    if ($_SESSION['id'] == "") {
-        header("location: signin.php");
-    } else {
-?>
 
 <!DOCTYPE html>
 <html lang="en">
